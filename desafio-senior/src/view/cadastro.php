@@ -83,12 +83,7 @@ if (!isset($_SESSION['administrador'])) {
 
     <!-- Footer -->
     <footer id="footer">
-        <div class="container">
 
-        </div>
-        <div class="copyright">
-            &copy; <a href="https://unsplash.com">Unsplash</a> Design <a href="https://templated.co">TEMPLATED</a>
-        </div>
     </footer>
 
     <!-- Scripts -->
