@@ -29,9 +29,9 @@
       </div>
 
       <form method="post" action="../../src/controller/UsuarioController.php">
-        <input type="text" id="usuario" class="fadeIn second" name="usuario" placeholder="usuário">
+        <input type="text" id="usuario" class="fadeIn second" name="usuario" placeholder="usuário" required>
 
-        <input type="password" class="fadeIn third" name="senha" placeholder="senha">
+        <input type="password" class="fadeIn third" name="senha" placeholder="senha" required>
 
         <input type="submit" class="fadeIn fourth" value="Entrar">
       </form>

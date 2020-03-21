@@ -60,12 +60,12 @@ if (!isset($_SESSION['administrador'])) {
                             <div class="row uniform">
                                 <!-- Break -->
                                 <div class="12u$">
-                                    <textarea name="descricao" id="message" placeholder="Descrição do produto" rows="6"></textarea>
+                                    <textarea name="descricao" id="message" placeholder="Descrição do produto" rows="6" required></textarea>
                                 </div>
                                 <!-- Break -->
                                 <h3>Preço</h3>
                                 <div class="6u 12u$(xsmall)">
-                                    <input type="number" name="preco" id="name" value="" placeholder="Preço" />
+                                    <input type="number" name="preco" id="name" value="" placeholder="Preço" required/>
                                 </div>
                                 <div class="12u$">
                                     <ul class="actions">

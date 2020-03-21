@@ -44,7 +44,7 @@ if (!isset($_SESSION['vendedor'])) {
                     <h4>Venda atual: <?php echo $doc; ?></h4>
                 </div>
                 <div class="col-sm-4">
-                    <input type="number" class="form-control" name="codigo" placeholder="Código Produto">
+                    <input type="number" class="form-control" name="codigo" placeholder="Código Produto" required>
                 </div>
                 <div class="col-sm-3">
                     <div class="form-group">
@@ -140,11 +140,6 @@ if (!isset($_SESSION['vendedor'])) {
             e.preventDefault();
         });
     </script>
-
-
-
-
-
 </body>
 
 </html>
