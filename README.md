@@ -7,6 +7,6 @@ Funcionalidades:
 - Cadastro de produto
 - Registro de venda
 - Visualização de total de vendas confirmadas
-- Controle de acesso por nível de usuário
+- Controle de acesso por nível de usuário (administrador ou vendedor)
 
 Arquivo para criação do banco está localizado na pasta SQL.
