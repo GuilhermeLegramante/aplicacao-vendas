@@ -12,7 +12,14 @@ if (!isset($_SESSION['administrador'])) {
 
 <head>
     <title>Cadastro de Produto</title>
-    <meta charset="utf-8" />
+
+    <meta name="description" content="Página Cadastro de Produto - aplicação controle de vendas.">
+    <meta name="keywords" content="senior sistemas, aplicação web, cadastro de produto, controle de vendas">
+    <meta name="robots" content="">
+    <meta name="revisit-after" content="7 day">
+    <meta name="language" content="Portuguese">
+    <meta name="generator" content="N/A">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="../../css/main.css">
 

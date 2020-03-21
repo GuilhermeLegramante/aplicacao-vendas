@@ -7,15 +7,21 @@ if (!isset($_SESSION['administrador'])) {
 
 ?>
 
-
-
 <!DOCTYPE HTML>
 <html>
 
 <head>
-    <title>Total Vendas</title>
-    <meta charset="utf-8" />
+    <title>Total Vendas Confirmadas</title>
+
+    <meta name="description" content="Página Total Vendas Confirmadas - aplicação controle de vendas.">
+    <meta name="keywords" content="senior sistemas, aplicação web, cadastro de produto, controle de vendas">
+    <meta name="robots" content="">
+    <meta name="revisit-after" content="7 day">
+    <meta name="language" content="Portuguese">
+    <meta name="generator" content="N/A">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" type="text/css" href="../../css/main.css">
 
 </head>
@@ -52,12 +58,7 @@ if (!isset($_SESSION['administrador'])) {
 
     <!-- Footer -->
     <footer id="footer">
-        <div class="container">
 
-        </div>
-        <div class="copyright">
-            &copy; <a href="https://unsplash.com">Unsplash</a> Design <a href="https://templated.co">TEMPLATED</a>
-        </div>
     </footer>
 
 
